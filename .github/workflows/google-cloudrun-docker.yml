@@ -35,7 +35,7 @@ on:
       - master
 
 env:
-  PROJECT_ID: 'devcucuriguproject1/my-cloudrun-repo' # TODO: update to your Google Cloud project ID
+  PROJECT_ID: 'devcucuriguproject1' # TODO: update to your Google Cloud project ID
   REGION: 'us-central1' # TODO: update to your region
   SERVICE: 'my-service-account@devcucuriguproject1.iam.gserviceaccount.com' # TODO: update to your service name
   WORKLOAD_IDENTITY_PROVIDER: 'projects/44456983198/locations/global/workloadIdentityPools/github/providers/my-repo' # TODO: update to your workload identity provider
